@@ -26,29 +26,30 @@ Before starting, ensure you have the following installed:
 
 ---
 
+Got it! Since you’re using **Yarn** instead of npm, we just need to adjust the commands in your README accordingly. Here's the updated version with **Yarn** commands:
+
+---
+
 ## 📥 Installation
 
 1. **Clone the repository:**
+
 ```bash
 git clone https://github.com/shehzadali1214/Starter.App.git
 cd Starter.App
-
 ```
-
 
 2. **Install JavaScript dependencies:**
+
 ```bash
-npm install
-
+yarn install
 ```
-
 
 3. **Install iOS Dependencies (macOS only):**
+
 ```bash
-npm run ios:pod
-
+yarn ios:pod
 ```
-
 
 ---
 
@@ -56,30 +57,31 @@ npm run ios:pod
 
 ### 🛰 Development
 
-| Command | Description |
-| --- | --- |
-| `npm run start` | Start the Metro Bundler |
-| `npm run android` | Run the app on Android |
-| `npm run ios` | Run the app on iOS |
+| Command        | Description             |
+| -------------- | ----------------------- |
+| `yarn start`   | Start the Metro Bundler |
+| `yarn android` | Run the app on Android  |
+| `yarn ios`     | Run the app on iOS      |
 
 ### 🏗 Build & Release
 
-| Command | Description |
-| --- | --- |
-| `npm run build:apk` | Generate APK via custom build script |
-| `npm run android:release` | Assemble Release AAB/APK |
-| `npm run android:clean` | Clean Gradle cache |
+| Command                | Description                          |
+| ---------------------- | ------------------------------------ |
+| `yarn build:apk`       | Generate APK via custom build script |
+| `yarn android:release` | Assemble Release AAB/APK             |
+| `yarn android:clean`   | Clean Gradle cache                   |
 
 ### 🛡 Quality & Maintenance
 
-| Command | Description |
-| --- | --- |
-| `npm run typecheck` | Run TypeScript validation |
-| `npm run lint` | Run ESLint check |
-| `npm run test` | Run Jest unit tests |
-| `npm run ios:pod:clean` | Deep clean and reinstall iOS Pods |
+| Command              | Description                       |
+| -------------------- | --------------------------------- |
+| `yarn typecheck`     | Run TypeScript validation         |
+| `yarn lint`          | Run ESLint check                  |
+| `yarn test`          | Run Jest unit tests               |
+| `yarn ios:pod:clean` | Deep clean and reinstall iOS Pods |
 
 ---
+
 
 ## 📁 Project Structure
 
@@ -110,14 +112,6 @@ DEBUG=true
 ```
 
 ---
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 
 ## 📲 Download App
