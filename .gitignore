@@ -1,11 +1,13 @@
+# npm lock file (not needed for Yarn projects)
+package-lock.json
+yarn.lock
+
 # OSX
 #
 .DS_Store
 
 
-# npm lock file (not needed for Yarn projects)
-package-lock.json
-yarn.lock
+
 
 # Xcode
 #
