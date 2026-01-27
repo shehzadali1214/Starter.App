@@ -139,6 +139,14 @@ You can download the latest development build (APK) directly from the link below
 
 ---
 
+## Download yarn for Windows
+
+[![Download Yarn](https://img.shields.io/badge/Yarn-Download&download)](https://classic.yarnpkg.com/latest.msi)
+
+1. npm install --global yarn
+2. use in PowerShell : `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+3. use in PowerShell : Set-ExecutionPolicy AllSigned
+
 ⭐️ From the **Codeavour** Team.
 
 Would you like me to help you set up the `tailwind.config.js` or provide a starter template for your `App.tsx`?

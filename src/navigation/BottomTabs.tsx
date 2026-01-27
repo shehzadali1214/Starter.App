@@ -15,7 +15,7 @@ export default function BottomTabs() {
         tabBarInactiveTintColor: '#444',
         tabBarIcon: ({color}) => {
           const name = route.name === 'Home' ? "home" : 'settings';
-          return <Icon name={name} color={color} size={22}/>;
+          return <Icon name={name} size={22} color={color}/>;
         },
         tabBarLabelStyle: {fontSize: 12},
       })}>
