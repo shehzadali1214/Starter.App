@@ -6,7 +6,7 @@ export default function HomeScreen() {
             <StatusBar
                 barStyle="dark-content"
                 backgroundColor="#fff"
-                hidden={false}
+                hidden={true}
             />
             <View  className="flex-1 items-center justify-center bg-yellow-500">
                 <Text style={styles.title}>Home</Text>

@@ -117,7 +117,7 @@ DEBUG=true
 ## 📲 Download App
 You can download the latest development build (APK) directly from the link below:
 
-[![Download APK](https://img.shields.io/badge/Download-Latest%20APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/shehzadali1214/Starter.App/raw/main/app-release.apk)
+[![Download APK](https://img.shields.io/badge/Download-Latest%20APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/shehzadali1214/Starter.App/blob/main/app-release.apk)
 
 > **Note:** If you are viewing this on GitHub, navigate to the `builds` folder in this repo and click on the `.apk` file to download.
 
